@@ -10,7 +10,6 @@ North8 adalah sebuah aplikasi pintar yang dibuat untuk membantu umat manusia aga
 1. Logika Tertulis > AI
 2. Element UI
 3. Node Flow
-4. Masa tenggang
 
 # Konfigurasi
 1. **Fungsi AI** : Buat api key gemini [Disini](https://aistudio.google.com/app/apikey), lalu salin dan tempel API Gemini ke North8 App
@@ -30,11 +29,11 @@ North8 adalah sebuah aplikasi pintar yang dibuat untuk membantu umat manusia aga
       |
       |___ AppData
           |
-          |___ KasirPro
+          |___ North8
       
 ```
 
 # Download
-[North8.exe](https://github.com/CusMeDroid/North8/releases/download/v1.0/North8.exe)
+[North8.exe](https://github.com/CusMeDroid/North8/releases/download/v1.1/North8.exe)
 
 Copyright © 2025 - **Suryo Dwijayanto**
