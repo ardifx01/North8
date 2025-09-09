@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TikTok Callback</title>
+</head>
+<body>
+    <h1>Proses Otentikasi Selesai!</h1>
+    <p>Silakan salin kode otorisasi di bawah ini:</p>
+    <pre id="authorization-code"></pre>
+
+    <script>
+        // Mendapatkan URL dari browser
+        const urlParams = new URLSearchParams(window.location.search);
+        
+        // Mengambil nilai 'code' dari parameter URL
+        const authCode = urlParams.get('code');
+        
+        // Menampilkan kode di halaman web
+        const codeElement = document.getElementById('authorization-code');
+        if (authCode) {
+            codeElement.textContent = authCode;
+        } else {
+            codeElement.textContent = 'Gagal mendapatkan kode otorisasi. Silakan coba lagi.';
+        }
+    </script>
+</body>
+</html>
